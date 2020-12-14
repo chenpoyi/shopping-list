@@ -9,6 +9,7 @@ target 'ShoppingList' do
   use_react_native!(:path => config["reactNativePath"])
 
 
+
   target 'ShoppingListTests' do
     inherit! :complete
     # Pods for testing
@@ -32,3 +33,5 @@ target 'ShoppingList-tvOS' do
     # Pods for testing
   end
 end
+
+pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
